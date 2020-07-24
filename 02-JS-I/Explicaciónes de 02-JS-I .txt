@@ -12,16 +12,16 @@ FUNCIONES:
 
 FUNCIONES(ARGUMENTOS):
 
--Son datos que se introducen en las funciones para que éstas las usen.
+-Son datos que se introducen en las funciones para que ï¿½stas las usen.
 
 FUNCIONES(RETURN):
 
--Es un objeto usado en las funciones para devolver un tipo de dato después de parar inmediatamente la función.
+-Es un objeto usado en las funciones para devolver un tipo de dato despuï¿½s de parar inmediatamente la funciï¿½n
 
 DECLARACIONES (IF):
 
--Es una operación de control de flujo, ésta operación verifica si se cumple una condición determinada. Si se cumple entonces se ejecutan las instrucciones establecidas en dicho caso, pero si no se cumple la condición ignorará las instrucciones establecidas dentro de la operación de control.
+-Es una operaciï¿½n de control de flujo, ï¿½sta operaciï¿½n verifica si se cumple una condiciï¿½n determinada. Si se cumple entonces se ejecutan las instrucciones establecidas en dicho caso, pero si no se cumple la condiciï¿½n ignorarï¿½ las instrucciones establecidas dentro de la operaciï¿½n de control.
 
 VALORES BOOLEANOS:
 
--Es un tipo de dato que verifica si una declaración es verdadera o falsa, solo tiene dos posibles datos "true" o "false". Estos dos posibles datos seran devueltos por una función después de verificar la información con operadores de comparación.
+-Es un tipo de dato que verifica si una declaraciï¿½n es verdadera o falsa, solo tiene dos posibles datos "true" o "false". Estos dos posibles datos seran devueltos por una funciï¿½n despuï¿½s de verificar la informaciï¿½n con operadores de comparaciï¿½n.
