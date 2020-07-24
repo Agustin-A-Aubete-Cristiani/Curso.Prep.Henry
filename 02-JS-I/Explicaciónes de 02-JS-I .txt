@@ -1,0 +1,27 @@
+VARIABLES:
+
+-Son una forma de guardar distintos tipos de datos para ser usados posteriormente.
+
+STRINGS:
+
+-Son un tipo de datos que contienen cadenas de texto.
+
+FUNCIONES:
+
+-Es un proceso donde se manipulan informacion con el objetivo de devolver un tipo de datos.
+
+FUNCIONES(ARGUMENTOS):
+
+-Son datos que se introducen en las funciones para que éstas las usen.
+
+FUNCIONES(RETURN):
+
+-Es un objeto usado en las funciones para devolver un tipo de dato después de parar inmediatamente la función.
+
+DECLARACIONES (IF):
+
+-Es una operación de control de flujo, ésta operación verifica si se cumple una condición determinada. Si se cumple entonces se ejecutan las instrucciones establecidas en dicho caso, pero si no se cumple la condición ignorará las instrucciones establecidas dentro de la operación de control.
+
+VALORES BOOLEANOS:
+
+-Es un tipo de dato que verifica si una declaración es verdadera o falsa, solo tiene dos posibles datos "true" o "false". Estos dos posibles datos seran devueltos por una función después de verificar la información con operadores de comparación.
