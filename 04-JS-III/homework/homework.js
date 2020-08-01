@@ -59,13 +59,12 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
 
-  var base = palabras[0];
+  var frase = palabras[0];
 
   for (var i = 1; i < palabras.length; i++) {
-    frase = base + " " + palabras[i];
-    base = frase;
+    frase = frase + " " + palabras[i];
   }
-  return base;
+  return frase;
 
   
   // return palabras.join(" ");
@@ -87,27 +86,22 @@ function agregarNumeros(numeros) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var base = 0;
-  var suma;
+  var total = 0;
   for ( let i = 0; i < numeros.length; i++) {
-    var suma = base + numeros[i];
-    base = suma;
+    total = total + numeros[i];
   }
-  return suma;
+  return total;
 }
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  var base = 0;
-  var adicion;
-  var promedio;
+  var totalSuma = 0;
   for (let i = 0; i < resultadosTest.length; i++) {
-    adicion = base + resultadosTest[i];
-    base = adicion;
+    totalSuma = totalSuma + resultadosTest[i];
   }
-  promedio = adicion / resultadosTest.length;
+  var promedio = totalSuma / resultadosTest.length;
   return promedio;
 }
 
@@ -116,7 +110,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var base = numeros[0];
-  for (let i = 0; i < numeros.length; i++) {
+  for (let i = 1; i < numeros.length; i++) {
     if ( base < numeros[i]) {
       base = numeros[i];
     }
